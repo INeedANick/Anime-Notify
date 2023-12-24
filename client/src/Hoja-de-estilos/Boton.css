@@ -1,0 +1,32 @@
+button{
+    background: #01000a;
+    width: 20vh;
+    height: 10vh;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    flex: 1;
+    margin-right: 2px;
+}
+
+.iconBoton{
+    height: 40px;
+    width: 40px;
+    filter: invert(100%);
+}
+
+.BotonHeader:hover{
+    background: #eeeeee;
+    width: 20vh;
+    height: 11vh;
+    filter: invert(0%);
+}
+
+.BotonHeader:hover .iconBoton{
+    filter: invert(0%);
+}
+
+.BotonHeader:active{
+    background: #a4a4a4;
+}
+

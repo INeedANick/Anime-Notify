@@ -1,0 +1,127 @@
+header{
+  width: 100%;
+  height: 10vh;
+  z-index: 1;
+  background: #01000a;
+  position: fixed;
+  top: 0;
+}
+
+body {
+  margin-top: 20vh; 
+  min-height: 70vh;
+  margin: 0;
+  padding: 0; 
+}
+
+footer{
+  width: 100vw;
+  height: 14vh;
+  z-index: 1;
+  background: #01000a;
+  position: fixed;
+  bottom: 0;
+}
+
+.KoieFondo{
+  width:1327.5px;
+  height:746.1px;
+  z-index: 0;
+  position: fixed;
+  top: 40px;
+  left: 0px;
+}
+
+.logoNotify{
+  width: 246.5px;
+  height: 57.5px;
+  z-index: 2;
+  position: fixed;
+  top: 10px;
+  left: -32px;
+}
+
+.textoLegal{
+  color: rgb(132, 132, 132);
+  font-size: 12px;
+  position: absolute;
+  transform: translateX(7.5%);
+  padding: 10px;
+  bottom: 0;
+}
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+}
+
+.buscador{
+  width: 350px;
+  height: 40px;
+  z-index: 3;
+  position: absolute;
+  top: 200px; 
+  outline: none;
+
+  display: flex;
+  align-items: center;
+
+  background: #000000;
+  border: 2px solid rgb(164, 164, 164);
+  border-radius: 100px;
+
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.botonBuscador{
+  width: 55px;
+  height: 46px;
+  z-index: 4;
+  position: absolute;
+  top: 200px; 
+  outline: none;
+  margin-right: 25%;
+  cursor: pointer;
+
+  background: #282A3A;
+  border: 2px solid rgb(164, 164, 164);
+  border-radius: 100px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.search{
+  width: 30px;
+  height: 30px;
+  z-index: 5;
+  position: absolute;
+  top: 208px;
+  margin-right: 25%;
+  pointer-events: none;
+}
+
+.buscador:hover{
+  background: #101010;
+  border-color: white;
+}
+
+.botonBuscador:hover{
+  background-color: #575c7f;
+  border-color: white;
+}
+
+.botonBuscador:active{
+  background: #3f425c;
+}
+
+.botonesHeader{
+  width: 25%; 
+  height: 10vh;
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  margin-right: 100px;
+}
